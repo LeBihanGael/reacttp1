@@ -11,10 +11,9 @@ const FunctionComponent = ({ couleur }) => {
     
     return (
         <div>
-            <div style={{ color }}>
+            <div style={{ color }} onMouseOver={changeColor}>
                 Je suis un composant
             </div>
-            <button onMouseOver={changeColor}>Changer la couleur</button>
         </div>
     );
 
